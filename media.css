@@ -1,0 +1,18 @@
+@media (max-width:768px){
+    .container{
+        width: 90%;
+    }
+}
+@media(max-width:390px){
+    .container{
+        width: 90%;
+    }
+}
+@media(max-width: 414px){
+    .container{
+        width: 90%;
+    }
+    .footer-end2{
+        padding: 20px;
+    }
+}

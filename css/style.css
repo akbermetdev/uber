@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+a{
+  text-decoration: none;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/*HEADER*/
+
+#header{
+    background: white;
+    position: fixed;
+    width: 100%;
+    height: 72px;
+    z-index: 100;
+
+}
+.header-general{
+    box-shadow: 0 0 16px rgba(38, 38, 38, 0.16);
+
+}
+.header-general{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+.header-general a h1{
+    font-size: 25px ;
+    color: black;
+}
+.header-general a span{
+    font-size: 25px ;
+    color: #729d25;
+    font-weight: 300;
+}
+
+.header-btn button{
+    width: 78px;
+    height: 40px;
+    border: 1px solid #E0E0E0;
+    border-radius: 2px;
+    transition: .4s;
+    margin-right: 10px ;
+}
+.header-btn button:hover{
+    color: black;
+    background: red;
+    transform: rotate(10deg);
+}
+.header-btn a {
+    color: black;
+}
+
+/*HEADER*/
+
+
+/*PRODUCT*/
+
+#product {
+    padding-top: 100px;
+}
+.product{
+   border-bottom: 2px solid #8f8b8b;
+    padding: 10px 0;
+}
+.product input{
+    width: 100%;
+
+    padding: 10px;
+    outline: none;
+    font-size: 18px;
+    background: none;
+    border: none;
+}
+.product input::placeholder{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1d1d1d;
+}
+.product-title{
+    padding: 16px 0;
+    margin-top: 40px;
+}
+.product-title h1{
+    font-weight: 400;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    color: #1D1D1D;
+}
+.product-text h3{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+
+    color: #1D1D1D;
+}
+.product-text h4{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+
+    color: #626262;
+}
+.product-text p{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #1D1D1D;
+}
+.product1{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.products{
+    padding: 21px 0;
+}
+
+/*PRODUCT*/
+
+/*FOOTER*/
+
+#footer{
+    background: #262626;
+}
+.footer a h1 {
+    font-size: 25px ;
+    color: black;
+}
+.footer a span{
+    font-size: 25px ;
+    color: #729d25;
+    font-weight: 300;
+}
+
+
+.footer{
+    border-bottom: 1px solid #8f8b8b;
+    padding: 40px 0;
+
+}
+.footer-globe {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+.footer-select{
+    width: 200px;
+    height: 40px;
+    background: #3B3B3B;
+    border-radius: 2px;
+    padding: 0 15px;
+}
+.footer-text {
+    display: flex;
+    padding: 35px 0;
+}
+.footer-text h4{
+    font-weight: 400;
+    font-size: 16px;
+    color: #49A144;
+}
+.footer-text h3{
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.icons {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    padding: 15px 0;
+}
+.text h5{
+    font-weight: 400;
+    font-size: 13px;
+    color: #FFFFFF;
+    padding: 20px 0;
+}
+.text2{
+    font-weight: 400;
+    font-size: 13px;
+    color: #FFFFFF;
+}
+.text2 h5{
+    padding: 20px 0;
+}
+.footer-solid{
+    border: 1px solid #8f8b8b;
+}
+.footer-end{
+    display: flex;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    background: #000000;
+    border-radius: 10px;
+    border: 2px solid #313030;;
+    justify-content: center;
+    margin: 0 20px;
+}
+.footer-end-one {
+    display: flex;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    background: #000000;
+    border-radius: 10px;
+    border: 2px solid #313030;;
+    justify-content: center;
+}
+.footer-end a {
+    color: #E0E0E0;
+}
+.footer-end-one a {
+    color: #E0E0E0;
+}
+
+
+.icons {
+    font-size: 22px;
+}
+.footer-app{
+    display: flex;
+    justify-content:center ;
+    align-items:center ;
+    padding: 50px 0;
+}
+.footer-solid2{
+    border: 1px solid #8f8b8b;
+}
+.footer-end2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-end2 h5{
+    font-weight: 400;
+    font-size: 11px;
+    color: #FFFFFF;
+    padding: 50px 0 ;
+}
+
+/*FOOTER*/
